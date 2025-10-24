@@ -34,13 +34,6 @@ M.nvdash = {
   },
 }
 
-M.ui = {
-  tabufline = {
-    lazyload = false,
-    enabled = false,
-  },
-}
-
 M.term = {
   float = {
     row = 0.05,
@@ -48,6 +41,7 @@ M.term = {
     width = 0.8,
     height = 0.8,
   },
+  enabled = false,
 }
 
 return M
