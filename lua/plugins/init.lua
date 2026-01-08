@@ -211,11 +211,4 @@ return {
       }
     end,
   },
-  {
-    "rmagatti/auto-session",
-    lazy = false,
-    opts = {
-      image = {},
-    },
-  },
 }
