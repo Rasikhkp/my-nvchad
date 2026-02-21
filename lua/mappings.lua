@@ -80,3 +80,6 @@ map("n", "<leader>5", "5gt", { desc = "Go to Tab 5" })
 
 -- Terminal mode quick escape
 map("t", "jk", [[<C-\><C-n>]], { desc = "Exit terminal mode with jk" })
+map({ "n", "t" }, "<leader>tf", function()
+  require("nvchad.term").toggle { pos = "float", id = "floatTerm" }
+end, { desc = "terminal toggle floating term" })
